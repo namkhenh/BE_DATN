@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Common.Dtos.Site
+{
+    public class SiteDto
+    {
+        public Guid Id { get; set; }    
+        public string Code { get; set; }
+        public string Name { get; set; }
+        public DateTime? DeleteAt { get; set; }
+        public DateTimeOffset CreatedDate { get; set; }
+
+        public DateTimeOffset? LastModifiedDate { get; set; }
+    }
+}

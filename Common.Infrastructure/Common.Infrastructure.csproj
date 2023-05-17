@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.Mongo" Version="1.9.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Contract\Common.Contract.csproj" />
+    <ProjectReference Include="..\Common.Logging\Common.Logging.csproj" />
+    <ProjectReference Include="..\Common.Share\Common.Share.csproj" />
+  </ItemGroup>
+
+</Project>
